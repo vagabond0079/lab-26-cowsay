@@ -12,7 +12,7 @@
 ## Learning Objectives  
 * Students will be able to configure webpack to compile JS into a bundle
 * Students will be able to configure webpack to compile sass into a bundle
-* Stuendts will be able to configure babel to transpile JSX and ES6 to ES5 javscript
+* Students will be able to configure babel to transpile JSX and ES6 to ES5 javscript
 * Students will be able to create and render react components to the DOM
 * Students will be able to add event listeners to react components 
 * Students will be able to update react component state
@@ -30,18 +30,18 @@ Your lab directory must include
 * **webpack.config.js** -- with webpack config
 * **src/** -- conating the froned code
 * **src/main.js** -- containing the entire app
-* **src/style** -- conating your sass
-* **src/style/main.scss** -- conating the froned code
+* **src/style** -- containing your sass
+* **src/style/main.scss** -- containing the froned code
  
 #### Feature Tasks  
 Create the following component
 ###### App
 * Should contain the entire application's view and state
 * Should have a property on the state called content 
-* Should create a view with the followwing display
-  * A heading with the tilte `Genorate Cowsay Lorem`
+* Should create a view with the following display
+  * A heading with the title `Generate Cowsay Lorem`
   * A Button that displays `click me`
-    * onClick the button should genorate new content on the app state useing cowsay and faker
+    * onClick the button should generate new content on the app state using cowsay and faker
   * A pre tag that displays the App's state's content 
 
 ####  Documentation  
