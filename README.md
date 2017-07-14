@@ -34,9 +34,15 @@ Your lab directory must include
 * **src/style/main.scss** -- conating the froned code
  
 #### Feature Tasks  
-* Create a React app with a single app component called app, that contains the following
- * a button that when clicked adds cowsay cow with lorem ipsum text to the App components state as **content**
- * a pre tag that displays the **content** stored on the App's state 
+Create the following components 
+###### App
+* Should contain the entire application's view and state
+* Should have a property on the state called content 
+* Should create a view with the followwing display
+  * A heading with the tilte `Genorate Cowsay Lorem`
+  * A Button that displays `click me`
+    * onClick the button should genorate new content on the app state useing cowsay and faker
+  * A pre tag that displays the App's state's content 
 
 ####  Documentation  
 Write a description of the project in your README.md
