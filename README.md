@@ -34,7 +34,7 @@ Your lab directory must include
 * **src/style/main.scss** -- conating the froned code
  
 #### Feature Tasks  
-Create the following components 
+Create the following component
 ###### App
 * Should contain the entire application's view and state
 * Should have a property on the state called content 
